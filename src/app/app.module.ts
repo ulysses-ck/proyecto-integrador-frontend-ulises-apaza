@@ -9,15 +9,13 @@ import { FormsModule } from '@angular/forms';
 import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
-	declarations: [
-		AppComponent,
-		HeaderComponent,
-		BannerComponent,
-		ExperienceComponent,
-		EducationComponent,
-	],
-	imports: [BrowserModule, FormsModule],
-	providers: [],
-	bootstrap: [AppComponent],
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
