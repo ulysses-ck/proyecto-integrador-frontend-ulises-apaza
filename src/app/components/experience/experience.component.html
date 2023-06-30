@@ -1,0 +1,16 @@
+<div class="mx-6 my-2 p-4 border border-gray-300">
+	<h3 class="text-xl text-center font-medium">Experiencia</h3>
+	<div class="flex flex-col">
+		<div class="p-2" *ngFor="let experience of experiences">
+			<i class="text-black text-3xl fa-solid fa-building"></i>
+			<h4 class="font-bold text-lg inline-block mx-2">
+				{{ experience.titleJob }}
+			</h4>
+			<span
+				>{{ experience.nameCompany }} -
+				{{ experience.workingDay }}</span
+			>
+			<p>{{ experience.jobDescription }}</p>
+		</div>
+	</div>
+</div>
